@@ -1,0 +1,81 @@
+/* ============================================================================
+tooltip.css Version 1.0.0
+
+Tooltips (pop-ups)
+
+Last Modified: August 4, 2015
+
+Copyright (c) 2017 by John Wiley & Sons, Inc.
+=============================================================================== */
+
+/**
+ * @license
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+#tooltip {
+	display: block;
+	position: absolute;
+	overflow: auto;
+	max-width: 500px;
+	min-width: 300px;
+	box-shadow: 3px 3px 3px rgba(100, 100, 100, 0.9);
+	background-color: #fff;
+	border: 1px solid #666;
+	border-radius: 5px;
+	z-index: 9;
+}
+
+#tooltip-content {
+	padding: 5px;
+	clear: both;
+	border-radius: 0 0 5px 5px;	
+}
+
+#tooltip-header {
+	font-size: 11pt;
+	color: white;
+	background-color: #bbb;	
+	padding: 0 5px;
+	vertical-align: middle;
+}
+
+#tooltip-close {
+	font-family: sans-serif;
+	font-size: 12pt;
+	cursor: pointer;
+	float: right;
+}
+
+.note-label {
+	color: blue;
+	background-color: inherit;
+	cursor: pointer;
+	vertical-align: super;
+	text-decoration: none;
+	font-size: smaller;
+}
+.note-label:hover {text-decoration: underline;}
+
+.term-label {
+	color: blue;
+	background-color: inherit;
+	cursor: pointer;
+	vertical-align: super;
+	font-size: smaller;
+	font-weight: bold;
+	margin-left: 1px;
+}
+.term-label:hover {text-decoration: underline;}
+
+.displayForm {font-weight: bold;}
