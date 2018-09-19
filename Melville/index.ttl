@@ -1,0 +1,401 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns0: <https://ontology.wiley.com/Base#> .
+@prefix ns1: <http://prismstandard.org/namespaces/basic/3.0/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns2: <https://ontology.wiley.com/Research#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://prismstandard.org/namespaces/pur/3.0/> .
+@prefix ns4: <https://ns.science.ai#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://njh.me/#>
+  schema:name "Model Journal Article ‐ Research Article RCM4: Resonance Raman spectrum of [Ru(bipyridine)3]2+ in water, acetonitrile and their deuterated derivatives"@en, "Model Journal Article ‐ Research Article RCM4: Resonance Raman spectrum of [Ru(bipyridine)3]2+ in water, acetonitrile and their deuterated derivatives*"^^rdf:HTML ;
+  a <https://ontology.wiley.com/Base#ArticleAtom> ;
+  schema:inLanguage "en"^^xsd:language ;
+  schema:accessibilityAPI "ARIA" ;
+  schema:accessibilityFeature "MathML", "alternativeText", "readingOrder" ;
+  ns0:numberOfFigures "4" ;
+  ns0:numberOfTables "4" ;
+  ns0:numberOfWords "5803" ;
+  schema:author <info:doi/10.1002/rcm.4/ContribRole/0002>, <info:doi/10.1002/rcm.4/ContribRole/0003>, <info:doi/10.1002/rcm.4/ContribRole/0004>, <info:doi/10.1002/rcm.4/ContribRole/0005>, <info:doi/10.1002/rcm.4/ContribRole/0006> ;
+  schema:contactPoint <info:doi/10.1002/rcm.4/ContribRole/0007> ;
+  ns0:contact <info:doi/10.1002/rcm.4/ContactRole/0001> ;
+  schema:study <https://data.wiley.com/10.1002/rcm.4/study> ;
+  ns0:hasAbstract <info:doi/10.1002/rcm.4/abstract/0001>, <info:doi/10.1002/rcm.4/abstract/0002>, <info:doi/10.1002/rcm.4/abstract/0003>, <info:doi/10.1002/rcm.4/abstract/0004> ;
+  schema:keywords "Thermoxidative ageing"^^rdf:HTML, "oxygen consumption"^^rdf:HTML, "diffusion‐limited oxidation"^^rdf:HTML, "density changes"^^rdf:HTML, "Thermooxidative Alterung"^^rdf:HTML, "Sauerstoffaufnahme"^^rdf:HTML, "diffusionslimitierte Oxidation"^^rdf:HTML, "Dichteänderung"^^rdf:HTML .
+
+<https://data.wiley.com/PD454646>
+  ns1:doi "10.1002/(ISSN)1097-0231" ;
+  ns1:issn "0951-4198" ;
+  ns1:eIssn "1097-0231" ;
+  ns0:productCode "RCM" ;
+  ns0:shortTitle "Rapid Commun Mass Spectrom" ;
+  foaf:homepage <http://onlinelibrary.wiley.com/XXXXX> ;
+  a <https://ontology.wiley.com/Research#Journal> ;
+  schema:name "Rapid Communications in Mass Spectrometry"@en .
+
+<https://data.wiley.com/201806220700>
+  a ns0:ArticleProduct ;
+  ns0:isPartOfIssue <https://data.wiley.com/PD1234568> ;
+  ns0:positionInIssue "10" ;
+  ns0:publicationType <https://vocabulary.wiley.com/PublicationType/OriginalArticle> ;
+  ns0:productCode "RCM4" ;
+  ns0:numberOfPages "21" ;
+  ns2:tocHeading1 "Research Articles"@en ;
+  ns2:tocHeading2 "TOC Heading 2 example for reference"@en ;
+  ns2:tocHeading3 "TOC Heading 3 example for reference"@en ;
+  ns0:pageStart "1" ;
+  ns0:pageEnd "21" ;
+  ns0:subject "http://psi.ams.org/msc2010/35K55"^^xsd:anyURI ;
+  ns0:eLocator "e4" ;
+  ns2:articleCategory "Research Article"@en ;
+  dc:dateSubmitted "2006-08-14T01:05:00Z"^^xsd:date ;
+  ns0:dateRevised "2006-09-12T00:00:00Z"^^xsd:date ;
+  dc:dateAccepted "2006-09-19T00:03:00Z"^^xsd:date ;
+  ns1:doi "10.1002/rcm.4" ;
+  ns3:copyright "Copyright © 2018 John Wiley & Sons, Ltd." ;
+  schema:editor <https://data.wiley.com/201806220700/ContribRole/0008> .
+
+<https://data.wiley.com/PD1234568>
+  ns0:positionInVolume "90" ;
+  ns1:doi "10.1002/rcm.v117.S4" ;
+  ns3:copyright "Copyright © 2018 John Wiley & Sons, Ltd." ;
+  ns0:isPartOfVolume <https://data.wiley.com/PD454647> ;
+  schema:editor <https://data.wiley.com/PD1234567/ContribRole/0001> ;
+  schema:name "Spectroscopy of Basidiomycete Proteases"@en ;
+  schema:issueNumber "S4" ;
+  ns1:coverDate "2007-06-12" .
+
+<https://data.wiley.com/PD454647>
+  ns0:isPartOfPeriodical <https://data.wiley.com/PD454646> ;
+  a ns0:Volume ;
+  schema:volumeNumber "117" ;
+  schema:name "117" .
+
+<https://data.wiley.com/PD1234567/ContribRole/0001>
+  a <https://ns.science.ai#ContributorRole> ;
+  schema:editor <https://data.wiley.com/PD1234567/cr-0001> .
+
+<https://data.wiley.com/PD1234567/cr-0001>
+  a schema:Person ;
+  schema:givenName "Alex J."@en ;
+  schema:familyName "Mitchell"@en ;
+  schema:name "Alex J. Mitchell"@en .
+
+<info:doi/10.1002/rcm.4/ContribRole/0002>
+  a <https://ns.science.ai#ContributorRole> ;
+  ns4:roleAffiliation <info:doi/10.1002/rcm.4/rcm4-aff-0001> ;
+  schema:position 1 ;
+  schema:author <info:doi/10.1002/rcm.4/rcm4-cr-0001> .
+
+<info:doi/10.1002/rcm.4/rcm4-cr-0001>
+  a schema:Person ;
+  schema:affiliation <info:doi/10.1002/rcm.4/rcm4-curr-0001> ;
+  ns0:orcid "http://orcid.org/0000-0002-4827-396X" ;
+  schema:honorificPrefix "Dr"@en ;
+  schema:givenName "Jørgen"@en ;
+  ns0:familyNamePrefix "van der"@en ;
+  schema:familyName "Ploeg"@en ;
+  ns0:dynasticNameSuffix "IV"@en ;
+  schema:honorificSuffix "PhD"@en ;
+  schema:name "Dr Jørgen van der Ploeg IV, PhD"@en ;
+  schema:jobTitle "Post‐doctoral Research Fellow"@en, "Medical Statistician"@en ;
+  foaf:depiction <urn:x-wiley:09514198:media:rcm4:cd00a084-e4bb-4ff8-91df-d56cb4fa0e78> ;
+  ns0:biography """
+Jørgen van der Ploeg gained the BSc, MSc, and PhD degrees in Electrical
+    Engineering from the University in Ljubljana, Slovenia, in 1975, 1977 and 1988,
+    respectively. Since 1975 he has been at the Western Michigan University, where
+    he is currently the head of Computer Systems Department. He has also been an
+    associate professor at the University of Ljubljana. His research interests
+    include electronic testing and diagnosis, and fault‐tolerant computing."""^^rdf:HTML .
+
+<info:doi/10.1002/rcm.4/ContribRole/0003>
+  a ns4:ContributorRole ;
+  ns4:roleAffiliation <info:doi/10.1002/rcm.4/rcm4-aff-0002> ;
+  schema:position 2 ;
+  schema:author <info:doi/10.1002/rcm.4/rcm4-cr-0002> .
+
+<info:doi/10.1002/rcm.4/rcm4-cr-0002>
+  a schema:Person ;
+  schema:honorificPrefix "Professor"@en ;
+  schema:givenName "Ming‐Qing"@en ;
+  schema:familyName "Peng"@en ;
+  schema:name "Professor Ming‐Qing Peng"@en ;
+  schema:jobTitle "Consultant Gerontologist"@en .
+
+<info:doi/10.1002/rcm.4/ContribRole/0004>
+  a ns4:ContributorRole ;
+  ns4:roleAffiliation <info:doi/10.1002/rcm.4/rcm4-aff-0003> ;
+  schema:position 3 ;
+  schema:author <info:doi/10.1002/rcm.4/rcm4-cr-0003> .
+
+<info:doi/10.1002/rcm.4/rcm4-cr-0003>
+  a schema:Person ;
+  schema:givenName "Patrick Michael"@en ;
+  schema:familyName "O'Hara"@en ;
+  ns0:dynasticNameSuffix "Jr"@en ;
+  schema:honorificSuffix "MD"@en ;
+  schema:name "Patrick Michael O'Hara Jr, MD"@en .
+
+<info:doi/10.1002/rcm.4/ContribRole/0005>
+  a ns4:ContributorRole ;
+  ns4:roleAffiliation <info:doi/10.1002/rcm.4/rcm4-aff-0001> ;
+  schema:position 4 ;
+  schema:author <info:doi/10.1002/rcm.4/rcm4-cr-0004> .
+
+<info:doi/10.1002/rcm.4/rcm4-cr-0004>
+  a schema:Person ;
+  schema:givenName "Zoltán"@en ;
+  schema:familyName "El‐Sheikh"@en ;
+  schema:honorificSuffix "MRCS"@en ;
+  schema:name "Zoltán El‐Sheikh, MRCS"@en ;
+  schema:jobTitle "Senior Clinical Lecturer"@en ;
+  schema:email "ze@tifs.in" ;
+  foaf:homepage <http://www.tifs.in/zes_home/> ;
+  schema:telephone "+91‐118‐654 9932 (work)", "+91‐118‐654 8843 (home)" ;
+  schema:faxNumber "+91‐118‐844 8855" .
+
+<info:doi/10.1002/rcm.4/ContribRole/0006>
+  a ns4:ContributorRole ;
+  ns4:roleAffiliation <info:doi/10.1002/rcm.4/rcm4-aff-0004> ;
+  schema:position 5 ;
+  schema:author <info:doi/10.1002/rcm.4/rcm4-cr-0005> .
+
+<info:doi/10.1002/rcm.4/rcm4-cr-0005>
+  a schema:Organization ;
+  schema:name "The RANX05 Study Group"@en ;
+  schema:email "info@kgtri.ko" .
+
+<info:doi/10.1002/rcm.4/ContribRole/0007>
+  a ns4:ContributorRole ;
+  schema:contactPoint <info:doi/10.1002/rcm.4/rcm4-cr-0006> .
+
+<info:doi/10.1002/rcm.4/rcm4-cr-0006>
+  a schema:Person ;
+  schema:honorificPrefix "Dame"@en ;
+  schema:givenName "Hélène"@en ;
+  schema:familyName "Riffé‐Chalard"@en ;
+  schema:name "Dame Hélène Riffé‐Chalard MBE"@en ;
+  schema:email "hrc@transcendental.ko" .
+
+<info:doi/10.1002/rcm.4/ContactRole/0001>
+  a ns0:ContactRole ;
+  schema:position 1 ;
+  ns0:contact <info:doi/10.1002/rcm.4/rcm4-cr-0004> .
+
+<info:doi/10.1002/rcm.4/rcm4-aff-0001>
+  a schema:Organization ;
+  schema:name "Department of Physics, Western Michigan University"@en ;
+  schema:address <info:doi/10.1002/rcm.4/rcm4-aff-0001/address> .
+
+<info:doi/10.1002/rcm.4/rcm4-aff-0001/address>
+  a schema:PostalAddress ;
+  ns0:addressDepartment "Department of Physics"@en ;
+  ns0:addressOrganization "Western Michigan University"@en ;
+  schema:addressLocality "Kalamazoo"@en ;
+  schema:addressRegion "Michigan"@en ;
+  schema:postalCode "94128‐2984" ;
+  schema:addressCountry "US"^^dc:ISO3166 .
+
+<info:doi/10.1002/rcm.4/rcm4-aff-0002>
+  a schema:Organization ;
+  schema:name "Third Department of Internal Medicine, Shiga University Medical School"@en ;
+  schema:address <info:doi/10.1002/rcm.4/rcm4-aff-0002/address> .
+
+<info:doi/10.1002/rcm.4/rcm4-aff-0002/address>
+  a schema:PostalAddress ;
+  ns0:addressDepartment "Third Department of Internal Medicine"@en ;
+  ns0:addressOrganization "Shiga University Medical School"@en ;
+  schema:addressLocality "Kyoto"@en ;
+  schema:postalCode "904" ;
+  schema:addressCountry "JP"^^dc:ISO3166 .
+
+<info:doi/10.1002/rcm.4/rcm4-aff-0003>
+  a schema:Organization ;
+  schema:name "Department of Oncology, Cancer Research Centre, King's University Belfast"@en ;
+  schema:address <info:doi/10.1002/rcm.4/rcm4-aff-0003/address> .
+
+<info:doi/10.1002/rcm.4/rcm4-aff-0003/address>
+  a schema:PostalAddress ;
+  ns0:addressDepartment """Department of Oncology
+Cancer Research Centre"""@en ;
+  ns0:addressOrganization "King's University Belfast"@en ;
+  schema:streetAddress "Lisburn Road"@en ;
+  schema:addressLocality "Belfast"@en ;
+  schema:postalCode "BE3 9ZR" ;
+  schema:addressCountry "GB"^^dc:ISO3166 .
+
+<info:doi/10.1002/rcm.4/rcm4-aff-0004>
+  a schema:Organization ;
+  schema:name "Korea Ginseng and Tobacco Research Institute"@en ;
+  schema:address <info:doi/10.1002/rcm.4/rcm4-aff-0004/address> .
+
+<info:doi/10.1002/rcm.4/rcm4-aff-0004/address>
+  a schema:PostalAddress ;
+  schema:streetAddress """412 Shinseong‐dong
+Youseong‐Ku
+Cheongryang"""@en ;
+  ns0:addressOrganization "Korea Ginseng and Tobacco Research Institute"@en ;
+  schema:addressLocality "Seoul"@en ;
+  schema:addressCountry "KR"^^dc:ISO3166 .
+
+<info:doi/10.1002/rcm.4/rcm4-curr-0001>
+  a schema:Organization ;
+  schema:name "Eötvös Lóránd University"@en ;
+  schema:address <info:doi/10.1002/rcm.4/rcm4-curr-0001/address> .
+
+<info:doi/10.1002/rcm.4/rcm4-curr-0001/address>
+  a schema:PostalAddress ;
+  ns0:addressOrganization "Eötvös Lóránd University"@en ;
+  schema:postalCode "1053" ;
+  schema:addressLocality "Budapest"@en ;
+  schema:streetAddress "Egyetem tér 1-3"@en ;
+  schema:addressCountry "HU"^^dc:ISO3166 .
+
+<https://data.wiley.com/10.1002/rcm.4/study>
+  a ns2:Study ;
+  schema:sponsor <https://data.wiley.com/10.1002/rcm.4/SponsorRole/0001>, <https://data.wiley.com/10.1002/rcm.4/SponsorRole/0002>, <https://data.wiley.com/10.1002/rcm.4/SponsorRole/0003>, <https://data.wiley.com/10.1002/rcm.4/SponsorRole/0004>, <https://data.wiley.com/10.1002/rcm.4/SponsorRole/0005> .
+
+<https://data.wiley.com/10.1002/rcm.4/SponsorRole/0001>
+  a ns4:SponsorRole ;
+  ns2:roleAward <https://data.wiley.com/10.1002/rcm.4/award/0001>, <https://data.wiley.com/10.1002/rcm.4/award/0002>, <https://data.wiley.com/10.1002/rcm.4/award/0003>, <https://data.wiley.com/10.1002/rcm.4/award/0004> ;
+  schema:sponsor <info:doi/10.13039/100000104> .
+
+<info:doi/10.13039/100000104>
+  a schema:Organization ;
+  ns1:doi "10.13039/100000104" ;
+  skos:prefLabel "National Aeronautics and Space Administration" ;
+  schema:name "National Aeronautics and Space Administration"@en .
+
+<https://data.wiley.com/10.1002/rcm.4/award/0001>
+  a ns2:Award ;
+  ns2:awardNumber "NNX13AO31G" .
+
+<https://data.wiley.com/10.1002/rcm.4/award/0002>
+  a ns2:Award ;
+  ns2:awardNumber "NNG06GF31G" .
+
+<https://data.wiley.com/10.1002/rcm.4/award/0003>
+  a ns2:Award ;
+  ns2:awardNumber "NNH1OCCO4C" .
+
+<https://data.wiley.com/10.1002/rcm.4/award/0004>
+  a ns2:Award ;
+  ns2:awardNumber "NNX11AN38G" .
+
+<https://data.wiley.com/10.1002/rcm.4/SponsorRole/0002>
+  a ns4:SponsorRole ;
+  ns2:roleAward <https://data.wiley.com/10.1002/rcm.4/award/0005> ;
+  schema:sponsor <info:doi/10.13039/100000001> .
+
+<info:doi/10.13039/100000001>
+  a schema:Organization ;
+  ns1:doi "10.13039/100000001" ;
+  skos:prefLabel "National Science Foundation" ;
+  schema:name "National Science Foundation"@en .
+
+<https://data.wiley.com/10.1002/rcm.4/award/0005>
+  a ns2:Award ;
+  ns2:awardNumber "AST-0908472" .
+
+<https://data.wiley.com/10.1002/rcm.4/SponsorRole/0003>
+  a ns4:SponsorRole ;
+  schema:sponsor <https://data.wiley.com/10.1002/rcm.4/sponsor/0001> .
+
+<https://data.wiley.com/10.1002/rcm.4/sponsor/0001>
+  a schema:Organization ;
+  skos:prefLabel "NASA High‐End Computing (HEC) Program" ;
+  schema:name "NASA High‐End Computing (HEC) Program"@en .
+
+<https://data.wiley.com/10.1002/rcm.4/SponsorRole/0004>
+  a ns4:SponsorRole ;
+  schema:sponsor <https://data.wiley.com/10.1002/rcm.4/sponsor/0002> .
+
+<https://data.wiley.com/10.1002/rcm.4/sponsor/0002>
+  a schema:Organization ;
+  skos:prefLabel "NASA Advanced Supercomputing (NAS) Division at Ames Research Center" ;
+  schema:name "NASA Advanced Supercomputing (NAS) Division at Ames Research Center"@en .
+
+<https://data.wiley.com/10.1002/rcm.4/SponsorRole/0005>
+  a ns4:SponsorRole ;
+  schema:sponsor <https://data.wiley.com/10.1002/rcm.4/sponsor/0003> .
+
+<https://data.wiley.com/10.1002/rcm.4/sponsor/0003>
+  a schema:Organization ;
+  skos:prefLabel "NASA Planetary Data System (PDS)" ;
+  schema:name "NASA Planetary Data System (PDS)"@en .
+
+<https://data.wiley.com/201806220700/ContribRole/0008>
+  a ns4:ContributorRole ;
+  schema:editor <https://data.wiley.com/rcm4-cr-30b9e33a-9f12-41ce-a64c-9cb1c5794578> .
+
+<https://data.wiley.com/rcm4-cr-30b9e33a-9f12-41ce-a64c-9cb1c5794578>
+  a schema:Person ;
+  schema:givenName "Fred P."@en ;
+  schema:familyName "Flintstone"@en ;
+  schema:name "Fred P. Flintstone"@en .
+
+<info:doi/10.1002/rcm.4/abstract/0001>
+  a ns0:Abstract ;
+  schema:inLanguage "en"^^xsd:language ;
+  dc:description """
+
+
+Increased oxidative stress and changes in antioxidant capacity observed in both clinical and experimental diabetes mellitus have been implicated in the etiology of chronic diabetic complications. Many authors have shown that hyperglycemia leads to an increase in lipid peroxidation in diabetic patients and animals reflecting a rise in reactive oxygen species production. The aim of the study was to compare the susceptibility of mitochondria from brain and liver of Goto‐Kakizaki (12‐month‐old diabetic) rats (GK rats), a model of non‐insulin dependent diabetes mellitus, to oxidative stress and antioxidant defenses.
+
+
+
+Methods
+Brain and liver mitochondrial preparations were obtained by differential centrifugation. Oxidative damage injury was induced in vitro by the oxidant pair ADP/Fe2+ and the extent of membrane oxidation was assessed by oxygen consumption, malondialdehyde (MDA) and thiobarbituric acid reactive substances (TBARS) formation. Coenzyme Q and α‐tocopherol contents were measured by high‐performance liquid chromatography (HPLC).
+
+
+
+Results
+Brain mitochondria isolated from 12‐month‐old control rats displayed a higher susceptibility to lipid peroxidation, as assessed by oxygen consumption and formation of MDA and TBARS, compared to liver mitochondria. In GK rats, mitochondria isolated from brain were more susceptible to in vitro oxidative damage than brain mitochondria from normal rats. In contrast, liver mitochondria from diabetic rats were less susceptible to oxidative damage than mitochondria from normal rats. This decreased susceptibility was inversely related to their α‐tocopherol and coenzyme Q (CoQ) content.
+
+
+
+Conclusions
+The present results indicate that the diabetic state can result in an elevation of both α‐tocopherol and CoQ content in liver, which may be involved in the elimination of mitochondrially generated reactive oxygen species. The difference in the antioxidant defense mechanisms in the brain and liver mitochondrial preparations of moderately hyperglycemic diabetic GK rats may correspond to a different adaptive response of the cells to the increased oxidative damage in diabetes. Copyright © 2007 John Wiley & Sons, Ltd.
+"""^^rdf:HTML .
+
+<info:doi/10.1002/rcm.4/abstract/0002>
+  a ns0:Abstract ;
+  schema:inLanguage "fr"^^xsd:language ;
+  dc:description """
+
+Cet article montre que les blocs de granite issus de tors se distribuent selon trois zones distinctes sur les pédiments et qu'ils sont réduits en granules, sable et fines à la surface même de ces pédiments. Le lieu d'étude se situe sur une des collines du batholite d'Old Crow, à la frontière internationale entre l'Alaska et le Yukon. Les méthodes et techniques utilisées sont la granulométrie et la géochimie des roches et des particules fines ainsi que la mesure de l'orientation des blocs. Les résultats indiquent que les blocs libérés par les tors deviennent de moins en moins nombreux et de plus en plus petits à la surface des pédiments quand leur distance par rapport au lieu d'origine augmente. Les processus de météorisation les détruisent avant qu'ils n'atteignent les talwegs. Des évaluations chronologiques permettent d'estimer à plusieurs dizaines, voire centaines de milliers d'années le temps nécessaire à la transformation des blocs en particules fines. Copyright © 2007 John Wiley & Sons, Ltd."""^^rdf:HTML .
+
+<info:doi/10.1002/rcm.4/abstract/0003>
+  a ns0:Abstract ;
+  schema:inLanguage "en"^^xsd:language ;
+  schema:category <https://vocabulary.wiley.com/PublicationType/AbstractShort> ;
+  dc:description """
+
+This article describes how tors calve granite boulders which are then distributed in three zones on the surrounding pediments. Results show that boulders become smaller and less frequent on the pediment as distance from the tor increases. Copyright © 2007 John Wiley & Sons, Ltd."""^^rdf:HTML .
+
+<info:doi/10.1002/rcm.4/abstract/0004>
+  a ns0:Abstract ;
+  schema:inLanguage "en"^^xsd:language ;
+  schema:category <https://vocabulary.wiley.com/PublicationType/AbstractGraphical> ;
+  dc:description """
+
+Resource Identification Initiative was launched as a pilot project to improve the reporting standards for research resources in the methods sections of papers and thereby improve identifiability and reproducibility. Here, we present an overview of the pilot project and its outcomes to date. We show that authors are generally accurate in performing the task of identifying resources and supportive of the goals of the project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""^^rdf:HTML .
