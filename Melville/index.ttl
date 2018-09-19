@@ -19,12 +19,27 @@
   ns0:numberOfFigures "4" ;
   ns0:numberOfTables "4" ;
   ns0:numberOfWords "5803" ;
-  schema:author <info:doi/10.1002/rcm.4/ContribRole/0002>, <info:doi/10.1002/rcm.4/ContribRole/0003>, <info:doi/10.1002/rcm.4/ContribRole/0004>, <info:doi/10.1002/rcm.4/ContribRole/0005>, <info:doi/10.1002/rcm.4/ContribRole/0006> ;
   schema:contactPoint <info:doi/10.1002/rcm.4/ContribRole/0007> ;
   ns0:contact <info:doi/10.1002/rcm.4/ContactRole/0001> ;
   schema:study <https://data.wiley.com/10.1002/rcm.4/study> ;
   ns0:hasAbstract <info:doi/10.1002/rcm.4/abstract/0001>, <info:doi/10.1002/rcm.4/abstract/0002>, <info:doi/10.1002/rcm.4/abstract/0003>, <info:doi/10.1002/rcm.4/abstract/0004> ;
-  schema:keywords "Thermoxidative ageing"^^rdf:HTML, "oxygen consumption"^^rdf:HTML, "diffusion‐limited oxidation"^^rdf:HTML, "density changes"^^rdf:HTML, "Thermooxidative Alterung"^^rdf:HTML, "Sauerstoffaufnahme"^^rdf:HTML, "diffusionslimitierte Oxidation"^^rdf:HTML, "Dichteänderung"^^rdf:HTML .
+  schema:author (
+   <info:doi/10.1002/rcm.4/ContribRole/0002>
+   <info:doi/10.1002/rcm.4/ContribRole/0003>
+   <info:doi/10.1002/rcm.4/ContribRole/0004>
+   <info:doi/10.1002/rcm.4/ContribRole/0005>
+   <info:doi/10.1002/rcm.4/ContribRole/0006>
+ ) ;
+  schema:keywords (
+   "Thermoxidative ageing"^^rdf:HTML
+   "oxygen consumption"^^rdf:HTML
+   "diffusion‐limited oxidation"^^rdf:HTML
+   "density changes"^^rdf:HTML
+   "Thermooxidative Alterung"^^rdf:HTML
+   "Sauerstoffaufnahme"^^rdf:HTML
+   "diffusionslimitierte Oxidation"^^rdf:HTML
+   "Dichteänderung"^^rdf:HTML
+ ) .
 
 <https://data.wiley.com/PD454646>
   ns1:doi "10.1002/(ISSN)1097-0231" ;
@@ -87,7 +102,6 @@
 <info:doi/10.1002/rcm.4/ContribRole/0002>
   a <https://ns.science.ai#ContributorRole> ;
   ns4:roleAffiliation <info:doi/10.1002/rcm.4/rcm4-aff-0001> ;
-  schema:position 1 ;
   schema:author <info:doi/10.1002/rcm.4/rcm4-cr-0001> .
 
 <info:doi/10.1002/rcm.4/rcm4-cr-0001>
@@ -114,7 +128,6 @@ Jørgen van der Ploeg gained the BSc, MSc, and PhD degrees in Electrical
 <info:doi/10.1002/rcm.4/ContribRole/0003>
   a ns4:ContributorRole ;
   ns4:roleAffiliation <info:doi/10.1002/rcm.4/rcm4-aff-0002> ;
-  schema:position 2 ;
   schema:author <info:doi/10.1002/rcm.4/rcm4-cr-0002> .
 
 <info:doi/10.1002/rcm.4/rcm4-cr-0002>
@@ -128,7 +141,6 @@ Jørgen van der Ploeg gained the BSc, MSc, and PhD degrees in Electrical
 <info:doi/10.1002/rcm.4/ContribRole/0004>
   a ns4:ContributorRole ;
   ns4:roleAffiliation <info:doi/10.1002/rcm.4/rcm4-aff-0003> ;
-  schema:position 3 ;
   schema:author <info:doi/10.1002/rcm.4/rcm4-cr-0003> .
 
 <info:doi/10.1002/rcm.4/rcm4-cr-0003>
@@ -142,7 +154,6 @@ Jørgen van der Ploeg gained the BSc, MSc, and PhD degrees in Electrical
 <info:doi/10.1002/rcm.4/ContribRole/0005>
   a ns4:ContributorRole ;
   ns4:roleAffiliation <info:doi/10.1002/rcm.4/rcm4-aff-0001> ;
-  schema:position 4 ;
   schema:author <info:doi/10.1002/rcm.4/rcm4-cr-0004> .
 
 <info:doi/10.1002/rcm.4/rcm4-cr-0004>
@@ -160,7 +171,6 @@ Jørgen van der Ploeg gained the BSc, MSc, and PhD degrees in Electrical
 <info:doi/10.1002/rcm.4/ContribRole/0006>
   a ns4:ContributorRole ;
   ns4:roleAffiliation <info:doi/10.1002/rcm.4/rcm4-aff-0004> ;
-  schema:position 5 ;
   schema:author <info:doi/10.1002/rcm.4/rcm4-cr-0005> .
 
 <info:doi/10.1002/rcm.4/rcm4-cr-0005>
@@ -182,7 +192,6 @@ Jørgen van der Ploeg gained the BSc, MSc, and PhD degrees in Electrical
 
 <info:doi/10.1002/rcm.4/ContactRole/0001>
   a ns0:ContactRole ;
-  schema:position 1 ;
   ns0:contact <info:doi/10.1002/rcm.4/rcm4-cr-0004> .
 
 <info:doi/10.1002/rcm.4/rcm4-aff-0001>
